@@ -1,5 +1,15 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {}
+    "识别并点击开始按钮": {
+        "recognition": "OCR",
+        "expected": "显示",
+        "action": "Click",
+        "next": [
+            "识别并点击确定图标"
+        ]
+    },
+    "识别并点击确定图标": {
+        "recognition": "OCR",
+        "expected": "显示大小",
+        "action": "Click"
+    }
 }
